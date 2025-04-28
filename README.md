@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Get a Joke!</title>
+  
   <style>
     
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #FF7F50, #FF6347); /* Gradyan arka plan */
+      background: linear-gradient(to right, #FF7F50, #FF6347);  
       color: white;
       display: flex;
       flex-direction: column;
@@ -32,7 +32,7 @@
 
     /* Şaka kartı */
     .joke {
-      background: #ffebcd; /* Şaka kartı için açık krem rengi */
+      background: #ffebcd; 
       color: #333;
       padding: 30px;
       border-radius: 12px;
@@ -47,11 +47,11 @@
     }
 
     .joke:hover {
-      transform: scale(1.05); /* Hover efekti */
+      transform: scale(1.05); 
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     }
 
-    /* Buton stilleri */
+    
     button {
       padding: 15px 30px;
       font-size: 18px;
@@ -66,14 +66,14 @@
 
     button:hover {
       background-color: #ff4500;
-      transform: scale(1.1); /* Butona hover efekti */
+      transform: scale(1.1); 
     }
 
     button:active {
-      background-color: #d84b16; /* Tıklama efekti */
+      background-color: #d84b16; 
     }
 
-    /* Küçük ekranlarda uyumlu tasarım */
+    
     @media (max-width: 600px) {
       .joke {
         width: 90%;
@@ -91,7 +91,8 @@
   </style>
 </head>
 <body>
-
+  <h1>Şaka dükkanı</h1>
+  <br>
   <h1>Want to Hear a Joke?</h1>
   <p>Click the button below to get a random joke!</p>
 
