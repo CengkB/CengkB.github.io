@@ -74,15 +74,16 @@
     }
 
     .footer {
-      position: absolute;
+  
       bottom: 20px;
       width: 100%;
       text-align: center;
+      
     }
 
     .footer span {
       font-size: 16px;
-      color: white;
+      color: Darkgrey;
     }
 
     @media (max-width: 600px) {
@@ -110,7 +111,7 @@
 <button onclick="getJoke()">Get Joke</button>
 
 <div class="footer">
-  <span>&copy; 2025 Joke Shop. All rights reserved by CB.</span>
+  <span>&copy;2025 Joke Shop. All rights reserved by CB.</span>
 </div>
 
 <script>
