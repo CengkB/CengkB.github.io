@@ -14,7 +14,7 @@
     }
 
     h1 {
-      color: #333;
+      color: green;
     }
 
     img {
@@ -39,6 +39,7 @@
     button:hover {
       background-color: #45a049;
     }
+    
   </style>
 </head>
 <body>
