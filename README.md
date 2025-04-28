@@ -30,7 +30,7 @@
       margin-bottom: 30px;
     }
 
-    /* Şaka kartı */
+    
     .joke {
       background: #ffebcd; 
       color: #333;
@@ -44,6 +44,8 @@
       min-height: 120px;
       margin-top: 20px;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-left: auto; 
+      margin-right: auto;
     }
 
     .joke:hover {
